@@ -1,22 +1,23 @@
 {
-  "name": "2d-tank-arena",
+  "name": "pulltalk-pr-recorder-demo",
   "version": "1.0.0",
-  "description": "Playable local version with movement and basic rendering.",
-  "main": "index.js",
+  "description": "Interactive demo of Pulltalk's record button and video embed workflow inside PR comment boxes.",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite"
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "pulltalk",
+    "pr",
+    "mediarecorder",
+    "vite"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "vite": "^7.1.9"
-  },
-  "dependencies": {
-    "gsap": "^3.13.0",
-    "three": "^0.180.0",
-    "tree": "^0.1.3"
   }
 }
